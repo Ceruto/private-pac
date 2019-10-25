@@ -1,4 +1,4 @@
-package com.sinoiov.jt808.encode;
+package com.ceruto.lbs.jt808.encode;
 
 import lombok.Data;
 

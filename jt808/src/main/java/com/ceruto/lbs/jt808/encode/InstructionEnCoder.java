@@ -1,10 +1,10 @@
-package com.sinoiov.jt808.encode;
+package com.ceruto.lbs.jt808.encode;
 
 import java.util.Objects;
 
-import com.sinoiov.jt808.MessageType;
-import com.sinoiov.jt808.message.Body;
-import com.sinoiov.jt808.message.Message;
+import com.ceruto.lbs.jt808.MessageType;
+import com.ceruto.lbs.jt808.message.Body;
+import com.ceruto.lbs.jt808.message.Message;
 
 /**
  * 指令生成器。 todo 需要注意的是，先设置body是不是好些？

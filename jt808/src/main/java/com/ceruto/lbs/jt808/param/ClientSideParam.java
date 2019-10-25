@@ -1,7 +1,7 @@
-package com.sinoiov.jt808.param;
+package com.ceruto.lbs.jt808.param;
 /**
  * @Description 终端参数设置各参数项定义及说明
- * @Author Ceruto yanghaipeng@sinoiov.com
+ * @Author Ceruto xibeijian@gmail.com
  * @Date 2019/10/24 17:23:05
  */
 public enum ClientSideParam { 

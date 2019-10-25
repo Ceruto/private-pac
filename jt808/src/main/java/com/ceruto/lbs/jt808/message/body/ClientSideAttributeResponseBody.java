@@ -1,6 +1,7 @@
-package com.sinoiov.jt808.message.body;
+package com.ceruto.lbs.jt808.message.body;
 
-import com.sinoiov.jt808.message.Body;
+import com.ceruto.lbs.jt808.MessageType;
+import com.ceruto.lbs.jt808.message.Body;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -19,8 +20,11 @@ public class ClientSideAttributeResponseBody extends Body {
 
     @Override
     public byte[] toBytes() {
-        // TODO Auto-generated method stub
         return null;
+    }
+
+    public ClientSideAttributeResponseBody(){
+        super(MessageType.CLIENT_SIDE_RES_ATTRIBUTE);
     }
 
 }

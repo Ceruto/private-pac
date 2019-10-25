@@ -1,4 +1,4 @@
-package com.sinoiov.jt808;
+package com.ceruto.lbs.jt808;
 
 /**
  * 协议参数

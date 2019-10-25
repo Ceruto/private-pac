@@ -1,4 +1,4 @@
-package com.sinoiov.jt808.exception;
+package com.ceruto.lbs.jt808.exception;
 
 /**
  * @Description GB808协议的自定义异常的基类。

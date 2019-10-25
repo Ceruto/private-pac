@@ -1,12 +1,12 @@
-package com.sinoiov.jt808.decode.instruction;
+package com.ceruto.lbs.jt808.decode.instruction;
 
-import com.sinoiov.jt808.decode.HeadDeCoder;
-import com.sinoiov.jt808.message.Head;
-import com.sinoiov.jt808.message.body.ClientSideAttributeResponseBody;
+import com.ceruto.lbs.jt808.decode.HeadDeCoder;
+import com.ceruto.lbs.jt808.message.Head;
+import com.ceruto.lbs.jt808.message.body.ClientSideAttributeResponseBody;
 
 /**
  * @Description TODO
- * @Author Ceruto yanghaipeng@sinoiov.com
+ * @Author Ceruto xibeijian@gmail.com
  * @Date 2019/10/24 17:56:00
  */
 class ClientSideAttributeResponse extends HeadDeCoder<ClientSideAttributeResponseBody> {

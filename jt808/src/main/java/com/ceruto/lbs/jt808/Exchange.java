@@ -1,4 +1,4 @@
-package com.sinoiov.jt808;
+package com.ceruto.lbs.jt808;
 
 import java.nio.charset.Charset;
 import java.util.Objects;
@@ -139,12 +139,6 @@ public abstract class Exchange {
             dest[i] = (byte) (src >> (i*8) & 0xFF);
         }
         return dest;
-    }
-
-    public static void main(String[] args) {
-        int src =  0x2122788F;
-        byte[] dest = toBytes(2,src);
-        System.out.println(Integer.toHexString(dest[0]));
     }
 
 }

@@ -1,10 +1,10 @@
-package com.sinoiov.jt808.message.body;
+package com.ceruto.lbs.jt808.message.body;
 
 import java.util.List;
 
-import com.sinoiov.jt808.MessageType;
-import com.sinoiov.jt808.message.Body;
-import com.sinoiov.jt808.param.ClientSideParam;
+import com.ceruto.lbs.jt808.MessageType;
+import com.ceruto.lbs.jt808.message.Body;
+import com.ceruto.lbs.jt808.param.ClientSideParam;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

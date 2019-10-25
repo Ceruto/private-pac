@@ -1,9 +1,9 @@
-package com.sinoiov.jt808.decode;
+package com.ceruto.lbs.jt808.decode;
 
 
-import com.sinoiov.jt808.exception.GB808Excepiton;
-import com.sinoiov.jt808.exception.GB808ExceptionType;
-import com.sinoiov.jt808.message.Message;
+import com.ceruto.lbs.jt808.exception.GB808Excepiton;
+import com.ceruto.lbs.jt808.exception.GB808ExceptionType;
+import com.ceruto.lbs.jt808.message.Message;
 
 /**
  * @Description 

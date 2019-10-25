@@ -1,6 +1,6 @@
-package com.sinoiov.jt808.message;
+package com.ceruto.lbs.jt808.message;
 
-import com.sinoiov.jt808.encode.byteStream.ByteStream;
+import com.ceruto.lbs.jt808.encode.byteStream.ByteStream;
 
 /**
  * @Description 消息。

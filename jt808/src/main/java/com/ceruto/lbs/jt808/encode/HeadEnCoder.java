@@ -1,8 +1,8 @@
-package com.sinoiov.jt808.encode;
+package com.ceruto.lbs.jt808.encode;
 
-import com.sinoiov.jt808.message.Attribute;
-import com.sinoiov.jt808.message.Head;
-import com.sinoiov.jt808.message.Message;
+import com.ceruto.lbs.jt808.message.Attribute;
+import com.ceruto.lbs.jt808.message.Head;
+import com.ceruto.lbs.jt808.message.Message;
 
 /**
  * @Description 创建协议的信息头，并指定消息序列号和消息ID，以及相关的基础参数。

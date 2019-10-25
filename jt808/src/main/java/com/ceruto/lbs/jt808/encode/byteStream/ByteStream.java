@@ -1,12 +1,12 @@
-package com.sinoiov.jt808.encode.byteStream;
+package com.ceruto.lbs.jt808.encode.byteStream;
 
 import java.util.Objects;
 
-import com.sinoiov.jt808.arrays.MutableByteArray;
-import com.sinoiov.jt808.exception.GB808Excepiton;
-import com.sinoiov.jt808.exception.GB808ExceptionType;
-import com.sinoiov.jt808.message.Body;
-import com.sinoiov.jt808.message.Message;
+import com.ceruto.lbs.jt808.arrays.MutableByteArray;
+import com.ceruto.lbs.jt808.exception.GB808Excepiton;
+import com.ceruto.lbs.jt808.exception.GB808ExceptionType;
+import com.ceruto.lbs.jt808.message.Body;
+import com.ceruto.lbs.jt808.message.Message;
 
 /**
  * <p>针对一条协议原始内容（byte[]）的加密，增加校验码，转义处理。</p>

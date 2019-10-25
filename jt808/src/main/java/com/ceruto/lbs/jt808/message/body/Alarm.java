@@ -1,4 +1,4 @@
-package com.sinoiov.jt808.message.body;
+package com.ceruto.lbs.jt808.message.body;
 
 public class Alarm {
 

@@ -1,6 +1,6 @@
-package com.sinoiov.jt808.message;
+package com.ceruto.lbs.jt808.message;
 
-import com.sinoiov.jt808.MessageType;
+import com.ceruto.lbs.jt808.MessageType;
 
 /**
  * 空body体。

@@ -1,6 +1,6 @@
-package com.sinoiov.jt808.decode;
+package com.ceruto.lbs.jt808.decode;
 
-import com.sinoiov.jt808.exception.GB808Excepiton;
+import com.ceruto.lbs.jt808.exception.GB808Excepiton;
 
 import java.util.Objects;
 

@@ -1,7 +1,7 @@
-package com.sinoiov.jt808.exception;
+package com.ceruto.lbs.jt808.exception;
 /**
  * @Description TODO
- * @Author Ceruto yanghaipeng@sinoiov.com
+ * @Author Ceruto xibeijian@gmail.com
  * @Date 2019/10/24 14:37:24
  */
 public enum GB808ExceptionType { 

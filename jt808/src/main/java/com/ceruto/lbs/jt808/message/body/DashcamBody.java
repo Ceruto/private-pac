@@ -1,7 +1,7 @@
-package com.sinoiov.jt808.message.body;
+package com.ceruto.lbs.jt808.message.body;
 
-import com.sinoiov.jt808.MessageType;
-import com.sinoiov.jt808.message.Body;
+import com.ceruto.lbs.jt808.MessageType;
+import com.ceruto.lbs.jt808.message.Body;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -9,7 +9,7 @@ import lombok.experimental.Accessors;
 
 /**
  * @Description TODO
- * @Author Ceruto yanghaipeng@sinoiov.com
+ * @Author Ceruto xibeijian@gmail.com
  * @Date 2019/10/24 18:26:21
  */
 @Data

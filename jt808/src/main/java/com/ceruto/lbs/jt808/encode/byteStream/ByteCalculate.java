@@ -1,6 +1,6 @@
-package com.sinoiov.jt808.encode.byteStream;
+package com.ceruto.lbs.jt808.encode.byteStream;
 
-import com.sinoiov.jt808.arrays.MutableByteArray;
+import com.ceruto.lbs.jt808.arrays.MutableByteArray;
 
 /**
  * @Description 模拟集合的流处理方式，处理对一条协议(byte[]) 的“流式”处理。

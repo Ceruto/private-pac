@@ -1,12 +1,12 @@
-package com.sinoiov.jt808.decode;
+package com.ceruto.lbs.jt808.decode;
 
-import com.sinoiov.jt808.arrays.ByteSlice;
-import com.sinoiov.jt808.Exchange;
-import com.sinoiov.jt808.exception.GB808Excepiton;
-import com.sinoiov.jt808.message.Attribute;
-import com.sinoiov.jt808.message.Body;
-import com.sinoiov.jt808.message.Head;
-import com.sinoiov.jt808.message.Message;
+import com.ceruto.lbs.jt808.arrays.ByteSlice;
+import com.ceruto.lbs.jt808.Exchange;
+import com.ceruto.lbs.jt808.exception.GB808Excepiton;
+import com.ceruto.lbs.jt808.message.Attribute;
+import com.ceruto.lbs.jt808.message.Body;
+import com.ceruto.lbs.jt808.message.Head;
+import com.ceruto.lbs.jt808.message.Message;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
