@@ -19,7 +19,6 @@ import com.ceruto.lbs.jt808.message.Message;
  * @Author Ceruto
  * @Date 2019/9/23 17:13
  * @Version 1.0
- * @Copyright 北京中交兴路车联网科技有限公司/SINOIOV.COM
  * @email xibeijian@gmail.com
  **/
 public interface ByteStream<R> {

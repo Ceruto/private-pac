@@ -3,10 +3,6 @@ package com.ceruto.lbs.jt808.message.body;
 import com.ceruto.lbs.jt808.MessageType;
 import com.ceruto.lbs.jt808.message.Body;
 
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.experimental.Accessors;
-
 /**
  * @Description 注册内容消息体。
  * @Author Ceruto
@@ -14,9 +10,6 @@ import lombok.experimental.Accessors;
  * @Version 1.0
  * @email xibeijian@gmail.com
  **/
-@Data
-@EqualsAndHashCode(callSuper = false)
-@Accessors(chain = true)
 public class RegisterBody extends Body {
     /**
      * 标示终端安装车辆所在的省域，0保留，由平台取默认值。省域ID采用GB/T 2260中规定的行政区划代码六位中前两位
@@ -50,6 +43,70 @@ public class RegisterBody extends Body {
     public RegisterBody(){
         super(MessageType.CLIENT_SIDE_REGISTER);
     }
+
+    public RegisterBody setProvinceCode(int provinceCode) {
+        this.provinceCode = provinceCode;
+        return this;
+    }
+
+    public int getProvinceCode() {
+        return provinceCode;
+    }
+
+    public RegisterBody setCityCode(int cityCode) {
+        this.cityCode = cityCode;
+        return this;
+    }
+
+    public int getCityCode() {
+        return cityCode;
+    }
+    
+    public RegisterBody setManufactoryId(String manufactoryId) {
+        this.manufactoryId = manufactoryId;
+        return this;
+    }
+
+    public String getManufactoryId() {
+        return manufactoryId;
+    }
+
+    public RegisterBody setClientType(String clientType) {
+        this.clientType = clientType;
+        return this;
+    }
+
+    public String getClientType() {
+        return clientType;
+    }
+
+    public RegisterBody setClientId(String clientId) {
+        this.clientId = clientId;
+        return this;
+    }
+
+    public String getClientId() {
+        return clientId;
+    }
+
+    public RegisterBody setVehiclePlate(String vehiclePlate) {
+        this.vehiclePlate = vehiclePlate;
+        return this;
+    }
+
+    public String getVehiclePlate() {
+        return vehiclePlate;
+    }
+
+    public RegisterBody setVehiclePlateColor(int vehiclePlateColor) {
+        this.vehiclePlateColor = vehiclePlateColor;
+        return this;
+    }
+
+    public int getVehiclePlateColor() {
+        return vehiclePlateColor;
+    }
+    
 
     @Override
     public byte[] toBytes() {

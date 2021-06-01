@@ -27,6 +27,46 @@ public class InstructionConfig {
         this.idGenerater = idGenerater;
     }
 
+    public void setVersion(int version) {
+        this.version = version;
+    }
+
+    public int getVersion() {
+        return version;
+    }
+
+    public void setVersionIdentify(int versionIdentify) {
+        this.versionIdentify = versionIdentify;
+    }
+
+    public int getVersionIdentify() {
+        return versionIdentify;
+    }
+
+    public boolean isPackage() {
+        return isPackage;
+    }
+
+    public void setPackage(boolean isPackage) {
+        this.isPackage = isPackage;
+    }
+
+    public boolean isEncrypt() {
+        return isEncrypt;
+    }
+
+    public void setEncrypt(boolean isEncrypt) {
+        this.isEncrypt = isEncrypt;
+    }
+
+    public void setIdGenerater(IDGenerater idGenerater) {
+        this.idGenerater = idGenerater;
+    }
+
+    public IDGenerater getIdGenerater() {
+        return idGenerater;
+    }
+
     public static InstructionConfig normalConfig() {
         return new InstructionConfig(1,false,false,1,IDGenerater.simpleIDGenerater());
     }

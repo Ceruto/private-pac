@@ -6,18 +6,12 @@ import com.ceruto.lbs.jt808.MessageType;
 import com.ceruto.lbs.jt808.message.Body;
 import com.ceruto.lbs.jt808.param.ClientSideParam;
 
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.experimental.Accessors;
 
 /**
  * @Description 
  * @Author Ceruto yanghaipeng@sinoiov.com
  * @Date 2019/10/24 17:37:31
  */
-@Data
-@EqualsAndHashCode(callSuper = false)
-@Accessors(chain = true)
 class ClientSideParamsResponse extends Body {
 
     public ClientSideParamsResponse(){
@@ -32,6 +26,22 @@ class ClientSideParamsResponse extends Body {
     private int paramSize = 0;
 
     private List<Param> params;
+
+    public void setParamSize(int paramSize) {
+        this.paramSize = paramSize;
+    }
+
+    public int getParamSize() {
+        return paramSize;
+    }
+
+    public void setParams(List<Param> params) {
+        this.params = params;
+    }
+
+    public List<Param> getParams() {
+        return params;
+    }
 
     @Override
     public byte[] toBytes() {

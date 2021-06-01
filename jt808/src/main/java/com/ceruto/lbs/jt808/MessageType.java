@@ -144,7 +144,7 @@ public enum MessageType {
     /**
      * 
      */
-    CLIENT_SIDE_CAN_UPLOAD(0x0705),
+    CLIENT_SIDE_CAN_UPLOAD(0x0705);
 
 
     public int value;

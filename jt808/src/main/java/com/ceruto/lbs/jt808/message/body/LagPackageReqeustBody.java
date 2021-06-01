@@ -3,13 +3,6 @@ package com.ceruto.lbs.jt808.message.body;
 import com.ceruto.lbs.jt808.MessageType;
 import com.ceruto.lbs.jt808.message.Body;
 
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.experimental.Accessors;
-
-@Data
-@EqualsAndHashCode(callSuper = false)
-@Accessors(chain = true)
 public class LagPackageReqeustBody extends Body {
 
     public LagPackageReqeustBody() {
@@ -22,6 +15,27 @@ public class LagPackageReqeustBody extends Body {
     int packageSize;
     //包id列表
     int[] ids;
+
+    public void setSerialId(int serialId) {
+        this.serialId = serialId;
+    }
+    public int getSerialId() {
+        return serialId;
+    }
+
+    public void setPackageSize(int packageSize) {
+        this.packageSize = packageSize;
+    }
+    public int getPackageSize() {
+        return packageSize;
+    }
+
+    public void setIds(int[] ids) {
+        this.ids = ids;
+    }
+    public int[] getIds() {
+        return ids;
+    }
 
 	@Override
 	public byte[] toBytes() {

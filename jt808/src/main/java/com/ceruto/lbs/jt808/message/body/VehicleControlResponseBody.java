@@ -1,20 +1,12 @@
 package com.ceruto.lbs.jt808.message.body;
 
 import com.ceruto.lbs.jt808.MessageType;
-import com.ceruto.lbs.jt808.message.Body;
-
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.experimental.Accessors;
 
 /**
  * @Description TODO
  * @Author Ceruto xibeijian@gmail.com
  * @Date 2019/10/24 18:13:14
  */
-@Data
-@EqualsAndHashCode(callSuper = false)
-@Accessors(chain = true)
 class VehicleControlResponseBody extends LocationBody {
 
     public VehicleControlResponseBody(){
@@ -23,6 +15,15 @@ class VehicleControlResponseBody extends LocationBody {
     }
 
     private int serialId;
+
+    public VehicleControlResponseBody setSerialId(int serialId) {
+        this.serialId = serialId;
+        return this;
+    }
+
+    public int getSerialId() {
+        return serialId;
+    }
 
     @Override
     public byte[] toBytes() {

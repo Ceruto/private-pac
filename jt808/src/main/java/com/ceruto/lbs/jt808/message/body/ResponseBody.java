@@ -3,16 +3,10 @@ package com.ceruto.lbs.jt808.message.body;
 import com.ceruto.lbs.jt808.MessageType;
 import com.ceruto.lbs.jt808.message.Body;
 
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.experimental.Accessors;
 
 /**
  * 客户端（终端）通用应答与服务端通用应答，内容一致。
  */
-@Data
-@EqualsAndHashCode(callSuper = false)
-@Accessors(chain = true)
 public class ResponseBody extends Body {
     //响应的流水号
     private int id;
@@ -45,6 +39,32 @@ public class ResponseBody extends Body {
 
     public ResponseBody(){
         this(0,0,0);
+    }
+
+    public ResponseBody setId(int id) {
+        this.id = id;
+        return this;
+    }
+    public int getId() {
+        return id;
+    }
+    
+    public ResponseBody setMessageId(int messageId) {
+        this.messageId = messageId;
+        return this;
+    }
+    
+    public int getMessageId() {
+        return messageId;
+    }
+
+    public ResponseBody setResult(int result) {
+        this.result = result;
+        return this;
+    }
+
+    public int getResult() {
+        return result;
     }
 
     @Override
